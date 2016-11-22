@@ -5,4 +5,3 @@ ENV JAVA_HOME=/usr/lib/jvm/default-jvm \
 RUN apk add --update openjdk8 \
     && apk add --update --repository http://dl-3.alpinelinux.org/alpine/edge/community/ --allow-untrusted maven \
     && rm -rf /var/cache/apk/*
-CMD tail -f /dev/null
